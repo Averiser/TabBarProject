@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DesignCodeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="DesignCodeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1951"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -445,8 +445,12 @@ design and code an iOS 11 app.</string>
                             <constraint firstItem="88Z-Eg-183" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tjx-01-26M"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="Tab Bar/home" selectedImage="Tab Bar/home-active" id="azu-Ab-lkl"/>
-                    <navigationItem key="navigationItem" id="mGM-xG-akM"/>
+                    <navigationItem key="navigationItem" id="mGM-xG-akM">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="Logo-DesignCode" id="3p5-lS-TLm"/>
+                        <barButtonItem key="rightBarButtonItem" title="Login" id="oX7-dH-UY6">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="2000"/>
                     <connections>
                         <outlet property="backgroundImageView" destination="4MO-Rt-Nfc" id="nrX-pf-JnN"/>
@@ -462,7 +466,7 @@ design and code an iOS 11 app.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815.20000000000005" y="132.23388305847078"/>
+            <point key="canvasLocation" x="1754.4000000000001" y="132.23388305847078"/>
         </scene>
         <!--Section View Controller-->
         <scene sceneID="sbZ-px-ZGe">
@@ -617,7 +621,7 @@ design and code an iOS 11 app.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0S-gs-5ZT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="-467.3163418290855"/>
+            <point key="canvasLocation" x="2487.1999999999998" y="-467.3163418290855"/>
         </scene>
         <!--Chapters-->
         <scene sceneID="EaF-eN-NFq">
@@ -633,7 +637,7 @@ design and code an iOS 11 app.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PE5-VH-WyX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2308" y="-467.3163418290855"/>
+            <point key="canvasLocation" x="3247.1999999999998" y="-467.3163418290855"/>
         </scene>
         <!--Bookmarks-->
         <scene sceneID="rxI-55-lDB">
@@ -662,7 +666,7 @@ design and code an iOS 11 app.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pv6-R7-QCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3040.8000000000002" y="-467.3163418290855"/>
+            <point key="canvasLocation" x="3980" y="-467.3163418290855"/>
         </scene>
         <!--Exercises-->
         <scene sceneID="ng7-qN-tiR">
@@ -691,7 +695,7 @@ design and code an iOS 11 app.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I42-eY-lJD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3783.1999999999998" y="-467.3163418290855"/>
+            <point key="canvasLocation" x="4722.3999999999996" y="-467.3163418290855"/>
         </scene>
         <!--More-->
         <scene sceneID="tPL-gS-dME">
@@ -871,6 +875,7 @@ design and code an iOS 11 app.</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="DFO-vo-ys6"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="UHj-yx-an9" firstAttribute="top" secondItem="NsM-WK-d1T" secondAttribute="top" constant="20" id="abv-tK-7IH"/>
@@ -884,7 +889,7 @@ design and code an iOS 11 app.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nh0-fe-EVi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4500" y="-467.3163418290855"/>
+            <point key="canvasLocation" x="5439.1999999999998" y="-467.76611694152928"/>
         </scene>
         <!--Testimonial View Controller-->
         <scene sceneID="nRu-zw-cPR">
@@ -1091,7 +1096,7 @@ design and code an iOS 11 app.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2g3-wh-PXv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1548" y="131.33433283358323"/>
+            <point key="canvasLocation" x="2487.1999999999998" y="131.33433283358323"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="R3d-La-p5e">
@@ -1104,7 +1109,7 @@ design and code an iOS 11 app.</string>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dpp-1O-zl9"/>
+                        <segue destination="rmJ-1k-LRQ" kind="relationship" relationship="viewControllers" id="dpp-1O-zl9"/>
                         <segue destination="2yR-tC-the" kind="relationship" relationship="viewControllers" id="21d-FY-tCx"/>
                         <segue destination="5du-t6-1ya" kind="relationship" relationship="viewControllers" id="hc0-tj-tnB"/>
                         <segue destination="Gjk-bf-ADb" kind="relationship" relationship="viewControllers" id="Q0k-CM-CI1"/>
@@ -1115,6 +1120,25 @@ design and code an iOS 11 app.</string>
             </objects>
             <point key="canvasLocation" x="2690" y="-1390"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="u7r-hK-T2K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rmJ-1k-LRQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="Tab Bar/home" selectedImage="Tab Bar/home-active" id="azu-Ab-lkl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="A5P-YC-XeE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TMZ-t6-5zU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHG-N2-PM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="978" y="-467"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Action-Close" width="13" height="13"/>
@@ -1123,6 +1147,7 @@ design and code an iOS 11 app.</string>
         <image name="Art-iPhoneX" width="129" height="326"/>
         <image name="Home" width="2880" height="1600"/>
         <image name="Logo-Apple" width="36" height="44"/>
+        <image name="Logo-DesignCode" width="28" height="28"/>
         <image name="Logo-Google" width="100" height="37"/>
         <image name="Logo-Stripe" width="81" height="33"/>
         <image name="More/ambience" width="36" height="36"/>
